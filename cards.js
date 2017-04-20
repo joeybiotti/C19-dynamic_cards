@@ -1,16 +1,21 @@
 console.log("cards.js");
 
 var textArea = document.getElementById("text_area");
-var card = document.getElementById("card");
-// var node = document.createTextNode("div");
-// node.appendChild("newCard");
-// document.getElementById("card").appendChild(node)
 
-var button = document.getElementById("submit").addEventListener("click", function(submit){
-	console.log("userText", textArea.value);
+var card = document.getElementById("card");
+
+var div = document.creatElement("div");
+document.body.appendChild(div);
+
+var divGone = card.removeChild(div);
+
+
+
+var button = document.getElementById("submit").addEventListener("click", function(makeDiv){
 
 })
 
-var deleteCard = document.getElementById("delete").addEventListener("click", function(removeItem){
-	console.log("delete button works now.");
+var deleteCard = document.getElementById("delete").addEventListener("click", function(removeDiv){
+
 });
+
