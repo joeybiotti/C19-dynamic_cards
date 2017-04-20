@@ -1,0 +1,10 @@
+* {
+	background-color: whitesmoke;
+}
+
+#card {
+	height: 150px;
+	width: 150px;
+	background-color: tomato;
+	box-shadow: 10px 10px 10px darkgrey;
+}
