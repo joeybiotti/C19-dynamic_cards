@@ -1,21 +1,12 @@
 console.log("cards.js");
 
-var textArea = document.getElementById("text_area");
+let submitBtn = document.getElementById("submit");
+let userInput = document.getElementById("text-area").value;
+let container = document.getElementById("container");
+let card = container.innerHTML;
 
-var card = document.getElementById("card");
-
-var div = document.creatElement("div");
-document.body.appendChild(div);
-
-var divGone = card.removeChild(div);
-
-
-
-var button = document.getElementById("submit").addEventListener("click", function(makeDiv){
-
-})
-
-var deleteCard = document.getElementById("delete").addEventListener("click", function(removeDiv){
-
+submitBtn.addEventListener("click", (event) => {
+    console.log("this submit btn works")
 });
+
 
