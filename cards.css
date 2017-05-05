@@ -1,10 +1,32 @@
-* {
-	background-color: whitesmoke;
+#submit {
+    background-color: lightgrey;
+    color: dodgerblue;
+    border: solid .75px olive;
+    border-radius: 5%;
 }
 
-#card {
-	height: 150px;
-	width: 150px;
-	background-color: dodgerblue;
-	box-shadow: 10px 10px 10px darkgrey;
+header {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.wrapper {
+    margin: auto;
+    padding: auto;
+    width: 20%;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    box-shadow: 10px 10px 10px darkgrey;
+}
+
+.delete {
+    background-color: darkblue;
+    color: white;
+    border: solid .5px lightblue;
 }
